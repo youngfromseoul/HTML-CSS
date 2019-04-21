@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8"/>
+		<title> html5 - table, form </title>
+	</head>
+	<body>
+		
+		<form action="">
+			<fieldset>
+				<table border="1" width="500">
+					<caption></caption>
+					<tbody>
+						<tr>
+							<th scope="row"><label for="form1">시험지명</label></th>
+							<td>
+								<input type="text" id="form1" placeholder="20자 이내로 입력해주세요."/>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><label for="form2">문항수</label></th>
+							<td>
+								<select id="form2">
+									<option>동해물</option>
+									<option></option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><label for="form3">주관식 문항수</label></th>
+							<td>
+								<select id="form3">
+									<option></option>
+									<option></option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><label for="form4">시험지 레벨</label></th>
+							<td>
+								<select id="form4">
+									<option></option>
+									<option></option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><label for="form5">휴대폰</label></th>
+							<td>
+								<select id="form5" title="휴대폰 번호 앞 3자리 선택">
+									<option>010</option>
+									<option>011</option>
+								</select> - 
+								<input type="text" placeholder="" title="휴대폰번호 가운데 3 또는 4자리 입력"/> - 
+								<input type="text" placeholder="" title="휴대폰 마지막 4자리 입력"/>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">성별</th>
+							<td>
+								<input type="radio" name="gender" id="gen1"/><label for="gen1">남</label>
+								<input type="radio" name="gender" id="gen2"/><label for="gen2">여</label>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8"/>
+		<title> html4 - form </title>
+	</head>
+	<body>
+
+		<!--
+			form 
+			웹사이트에서 사용자가 내용을 작성 할 수 있도록 되어있는 형태(예 : 로그인, 회원가입, 게시글작성, 댓글작성, 검색 등)
+		-->
+		
+		<form action="">
+			<fieldset>
+				<legend><!-- form 이름 --></legend>
+				
+				<input type="text" title=""/><!-- 한줄로 입력 가능한 영역 -->
+				
+				<input type="radio" id="man" name="gender" title=""/><!-- 단일 선택 사항일 때 -->
+				<label for="man">남자</label><!-- label 사용시 title 사용하지 않아도 됨 -->
+				<input type="radio" id="girl" name="gender" title=""/><!-- name값이 동일할 때 하나만 선택 가능 -->
+				<label for="girl">여자</label>
+				
+				<input type="checkbox" title=""/><!-- 다중선택 -->
+				<input type="checkbox" title=""/><!-- 다중선택 -->
+				<input type="checkbox" title=""/><!-- 다중선택 -->
+				<input type="checkbox" title=""/><!-- 다중선택 -->
+				
+				<input type="password" title=""/><!-- 한줄로 입력 가능한 영역(글자숨김) -->
+				
+				<textarea cols="20" rows="5" title=""></textarea><!-- 여러줄의 글 입력시 -->
+				
+				<select title="">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				
+				
+				
+				<!-- submit:입력한 내용에 대하여 form의 action을 실행 -->
+				<!-- form안에 한개만 사용 -->
+				<input type="image" src="" alt=""/>
+				<input type="button" value="button" title=""/><!-- value 버튼안에 들어가는 글자 -->
+				<input type="submit" value="submit" title=""/>
+				<button>button</button>
+			</fieldset>
+		</form>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
